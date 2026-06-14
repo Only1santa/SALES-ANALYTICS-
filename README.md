@@ -7,5 +7,5 @@ calculated revenue , cost of goods and profit margin for efficieny in new column
 Merged hierachical region comprising of region , country, location
 
 #ANALYSIS TASK
-This repository d=documenys analytical workings for part B of sales analysis assignment built entirely in excel using helper columns , pivot tables and formulae driven calculations
+This repository documents  analytical workings for part B of sales analysis assignment built entirely in excel using helper columns , pivot tables and formulae driven calculations
 Each task is shown in the sheet with methodology used so the working is transparent
