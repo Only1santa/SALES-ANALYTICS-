@@ -9,3 +9,6 @@ Merged hierachical region comprising of region , country, location
 #ANALYSIS TASK
 This repository documents  analytical workings for part B of sales analysis assignment built entirely in excel using helper columns , pivot tables and formulae driven calculations
 Each task is shown in the sheet with methodology used so the working is transparent
+
+
+We created an interactive dashboard on sales showing monthly revenue , sku revenue and profit by region and channel . 
