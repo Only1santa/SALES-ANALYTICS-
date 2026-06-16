@@ -12,3 +12,12 @@ Each task is shown in the sheet with methodology used so the working is transpar
 
 
 We created an interactive dashboard on sales showing monthly revenue , sku revenue and profit by region and channel . 
+
+Built an interactive scenario model to test the financial impact of three business levers — discount policy, cost inflation, and demand changes — against baseline performance, without altering raw sales data.
+Approach
+Created a dedicated Scenario_Model sheet, isolated from raw SalesData to preserve data integrity
+Defined three named input cells (DiscountCap, CostInflation, QtyUplift) with data validation to enforce realistic bounds (0–25%, 0–15%, 0–20% respectively)
+Used SUMPRODUCT array logic (in place of PivotTables, due to WPS limitations) to calculate Revenue and COGS dynamically across the full dataset
+Applied MIN() logic to cap discounts at the scenario threshold while preserving actual values below the cap
+Built a side-by-side Baseline vs. Scenario comparison table with absolute and percentage deltas, using conditional formatting to flag favorable/unfavorable shifts
+Extended the model with a static sensitivity table (Conservative / Base Case / Optimistic) to show outcomes across three named futures simultaneously
