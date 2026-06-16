@@ -20,4 +20,4 @@ Defined three named input cells (DiscountCap, CostInflation, QtyUplift) with dat
 Used SUMPRODUCT array logic (in place of PivotTables, due to WPS limitations) to calculate Revenue and COGS dynamically across the full dataset
 Applied MIN() logic to cap discounts at the scenario threshold while preserving actual values below the cap
 Built a side-by-side Baseline vs. Scenario comparison table with absolute and percentage deltas, using conditional formatting to flag favorable/unfavorable shifts
-Extended the model with a static sensitivity table (Conservative / Base Case / Optimistic) to show outcomes across three named futures simultaneously
+
